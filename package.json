@@ -1,0 +1,21 @@
+{
+  "name": "vueuse-study",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "play": "pnpm -C playground dev",
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "lint": "eslint --cache .",
+    "lint:fix": "pnpm lint --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.26.0",
+    "eslint": "^9.9.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vitest": "^2.0.5"
+  },
+  "packageManager": "pnpm@9.5.0"
+}
